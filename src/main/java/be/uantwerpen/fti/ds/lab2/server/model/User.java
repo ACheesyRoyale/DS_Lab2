@@ -1,4 +1,4 @@
-package be.uantwerpen.fti.ds.lab2.model;
+package be.uantwerpen.fti.ds.lab2.server.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;

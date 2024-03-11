@@ -1,13 +1,13 @@
-package be.uantwerpen.fti.ds.lab2;
+package be.uantwerpen.fti.ds.lab2.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Lab2Application {
+public class BankServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Lab2Application.class, args);
+        SpringApplication.run(BankServerApplication.class, args);
     }
 
 }
