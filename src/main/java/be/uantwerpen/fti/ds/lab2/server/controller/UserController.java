@@ -1,7 +1,7 @@
-package be.uantwerpen.fti.ds.lab2.controller;
+package be.uantwerpen.fti.ds.lab2.server.controller;
 
-import be.uantwerpen.fti.ds.lab2.model.User;
-import be.uantwerpen.fti.ds.lab2.repository.UserRepository;
+import be.uantwerpen.fti.ds.lab2.server.model.User;
+import be.uantwerpen.fti.ds.lab2.server.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
