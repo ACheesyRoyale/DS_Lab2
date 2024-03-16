@@ -13,7 +13,7 @@ import java.util.Set;
 
 public interface BankAccountRepository extends CrudRepository<BankAccount, Long> {
 
-    <E> List<BankAccount> findByUsers(Set<User> users);
+    List<BankAccount> findByUsers(Set<User> users);
 
     BankAccount findByUsersAndAccountNumber(Set<User> users, String banknumber);
 
