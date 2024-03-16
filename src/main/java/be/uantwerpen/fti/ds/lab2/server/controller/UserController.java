@@ -44,3 +44,4 @@ public class UserController {
         return user.map(User::getId);
     }
 }
+

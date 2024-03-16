@@ -15,6 +15,7 @@ public interface BankAccountRepository extends CrudRepository<BankAccount, Long>
 
     List<BankAccount> findByUsers(Set<User> users);
 
+
     BankAccount findByUsersAndAccountNumber(Set<User> users, String banknumber);
 
     boolean existsBankAccountByAccountNumberAndUsers(String accountNumber, Set<User> users);

@@ -10,6 +10,7 @@ public class BankServerApplication {
     public static void main(String[] args) {
         SpringApplication.run(BankServerApplication.class, args);
 //        new BankingClient("localhost", 8080, "ann@suantwerpen.be");
+
     }
 
 }
