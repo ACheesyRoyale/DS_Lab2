@@ -1,7 +1,7 @@
 package be.uantwerpen.fti.ds.lab2.server.controller;
 
 import be.uantwerpen.fti.ds.lab2.server.model.BankAccount;
-import be.uantwerpen.fti.ds.lab2.server.model.BankRequest;
+import be.uantwerpen.fti.ds.lab2.server.model.dto.BankRequest;
 import be.uantwerpen.fti.ds.lab2.server.model.User;
 import be.uantwerpen.fti.ds.lab2.server.model.dto.UserViewBankAccountDTO;
 import be.uantwerpen.fti.ds.lab2.server.repository.BankAccountRepository;
